@@ -1,0 +1,89 @@
+/* card detail btn */
+.fa-solid.red{
+    color: #EB5757;
+}
+
+/* Ai card image size */
+.sizes{
+    width: 300px;
+    height: 190px;
+}
+
+
+/* modal btn close */
+.my-btn{
+    margin-left: 1125px;
+    margin-top: -11px;
+    background-color: #e62929!important;
+    color: aliceblue;
+}
+
+/* modal-text-color */
+.modal-text-color1{
+    color: #03A30A;
+}
+.modal-text-color2{
+    color: #F28927;
+}
+.modal-text-color3{
+    color: #EB5757;
+}
+
+.modal-img{
+    width: 471px;
+    height: 265px;
+}
+.modal-accuracy{
+    width: 160px;
+    height: auto;
+    font-size: 18px;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: -55%;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.modal-greeting{
+    margin-top: 53%;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 896px){
+    .modal-margin-sm{
+        margin: auto!important;
+    }
+    .my-btn{
+        margin-left: auto;
+        margin-top: auto;
+    }
+    .sizes{
+        width: 90%;
+        height: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .modal-img{
+        width: 100%;
+        height: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .modal-accuracy{
+        width: 140px;
+        height: auto;
+        font-size: 14px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: -55%;
+        margin-left: auto;
+        margin-right: 5px;
+    }
+
+    .modal-greeting{
+        margin-top: 53%;
+    }
+
+}
